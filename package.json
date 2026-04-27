@@ -1,4 +1,8 @@
 {
+  "scripts": {
+    "start": "npx serve .",
+    "setup:webviewer": "mkdir -p lib && cp -r node_modules/@pdftron/webviewer/public/. ./lib && cp node_modules/@pdftron/webviewer/webviewer.min.js ./lib/"
+  },
   "dependencies": {
     "@pdftron/webviewer": "^11.12.0"
   }

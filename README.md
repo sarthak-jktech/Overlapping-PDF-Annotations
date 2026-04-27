@@ -1,9 +1,8 @@
 ## Setup
 
 - npm install
-- mkdir -p lib
-- cp -r node_modules/@pdftron/webviewer/public/. ./lib
-- cp node_modules/@pdftron/webviewer/webviewer.min.js ./lib/
+- npm run setup:webviewer
+- npm start
 
 # Sample image
 
